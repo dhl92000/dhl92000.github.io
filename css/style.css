@@ -1,0 +1,110 @@
+html {
+    scroll-behavior:smooth;
+    https://developer.mozilla.org/fr/docs/Web/CSS/scroll-behavior
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+  /* TINY NAVBAR */
+  .tinyNav{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top:0;
+    padding: 25px;
+}
+
+/* SLIDING BANNER */
+.slidingBanner{
+    border: 1px solid transparent;
+    overflow: hidden;
+    animation-name: banner;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 30px;
+}
+
+@keyframes banner {
+    from{transform: translateX(100%);}
+    to{transform: translateX(-100%);}
+}
+
+/* INTRO SECTION */
+.introDiv{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introSquare{
+    /* background-color: pink; */
+    width: 800px;
+    height: 400px;
+}
+#helloText{
+    font-family: 'Inter', sans-serif;
+    font-size: 84px;
+    padding: 10px;
+}
+
+/* SKILLS SECTION */
+.skills {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.skillsIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 80px;
+    margin: auto;
+    width: 75vw;
+}
+.icon{
+    height: 15vh;
+}
+.logoName{
+    text-align: center;
+}
+/* PROJECTS SECTION */
+.projects {
+    height: 100vh;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.projDescription{
+    grid-column-start: 2;
+    width: 40vw;
+    margin: 2em;
+}
+.projectImg{
+    grid-column-start: 3;
+    width: 400px;
+    padding: 2rem;
+}
+
+
+/* @media */
+
+/* https://good-start.netlify.app/ */

@@ -1,22 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <script src="/js/app.js" charset="UTF-8"></script>
 </head>
+
 <body>
-    
-    Hi, I'm Dahee 
-    CONTACT
+    <nav class="tinyNav">
+        <div>Dahee Lee</div>
+        <div>
+            Let's Connect:
+            <a href="linkedin.com/in/daheelee/">
+                <i class="devicon-linkedin-plain colored" style="font-size:35px"></i>
+            </a>
+            <i class="fa fa-envelope" style="font-size:36px;color:blue"></i>
+            <i class="fa fa-github" style="font-size:36px"></i>
 
-    SKILLS
+        </div>
+        <div>
+            <a href="#a">ABOUT</a>
+            <a href="#b">SKILLS</a>
+            <a href="#c">PROJECTS</a>
+        </div>
+    </nav>
 
-    PROJECTS
+    <div class="introDiv" id="a">
+        <div class="introSquare">
+            <h1 id="helloText">Hi, I'm Dahee!</h1>
+            <h4>I'm a full stack software engineer</h4>
+            <h4>customer service expert</h4>
+            <h4>coffee addict</h4>
+
+        </div>
+    </div>
+
+    <section class="skills" id="b">
+        <h1 class="slidingBanner">TECHNOLOGIES</h1>
+        <div class="skillsIcons">
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+                <h3 class="logoName">HTML</h3>
+            </div>
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+                <h3 class="logoName">CSS</h3>
+            </div>
+
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                <h3 class="logoName">JavaScript</h3>
+            </div>
+            <div>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+                <h3 class="logoName">Python</h3>
+            </div>
+
+            <div>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+                <h3 class="logoName">Django</h3>
+            </div>
+
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                <h3 class="logoName">Express</h3>
+            </div>
+
+            <div>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <h3 class="logoName">React</h3>
+            </div>
+
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
+                <h3 class="logoName">MongoDB</h3>
+            </div>
+
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
+                <h3 class="logoName">PostgreSQL</h3>
+            </div>
+
+            <div>
+                <img class="icon"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                <h3 class="logoName">Tailwind</h3>
+            </div>
+
+            <div>
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <h3 class="logoName">Github</h3>
+            </div>
+        </div>
+    </section>
+
+    <main class="projects" id="c">
+        <h1 class="slidingBanner">PROJECTS</h1>
+        <div class="project">
+            <div class="projDescription">
+                <h1>PLACES</h1>
+                <h3>PostgreSQL • Sequelize • Express.js • React • Node.js • Tailwind </h3>
+                <h3>
+                    A toolkit website for builders to efficiently manage their pre-construction inventory and connect
+                    with
+                    buyers.
+                </h3>
+            </div>
+            <div>
+                image here
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="projDescription">
+                <h1>PENS</h1>
+                <h3>MongoDB • Express.js • EJS • Node.js</h3>
+                <h3>
+                    Pens is a journalling app for users to unleash their creativity and share quotes and thoughts in a
+                    captivating way.
+                </h3>
+            </div>
+            <div>
+                <img class="projectImg" src="https://i.imgur.com/oxoLeqa.png" alt="Pens App Image">
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="projDescription">
+                <h1>GOOD START</h1>
+                <h3>Node.js • HTML • CSS • JavaScript</h3>
+                <h3>
+                    For users uncovering daily inspiration, where a click of the mouse unveils an inspirational quote
+                    and an immersive colour experience.
+                </h3>
+            </div>
+            <div>
+                <img class="projectImg" src="https://i.imgur.com/OWPp9Ei.png" alt="Pens App Image">
+            </div>
+        </div>
+    </main>
 
 
 
 </body>
+
 </html>
