@@ -71,6 +71,10 @@ hr {
     font-weight: 300;
 }
 
+#connectText {
+    font-weight: bold;
+}
+
 .helloDiv i {
     font-style: normal;
     margin: 5px 5px;
@@ -131,6 +135,10 @@ hr {
     padding-top: 30vh;
 }
 
+.skillsDescription h4 {
+    font-weight: 300;
+    text-align: justify;
+}
 
 /* PROJECTS SECTION */
 .projectsHeader{
