@@ -11,6 +11,8 @@
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
@@ -21,36 +23,55 @@
 </head>
 
 <body>
-    <nav class="tinyNav">
-        <div>Dahee Lee</div>
-        <div>
-            Let's Connect:
-            <a href="linkedin.com/in/daheelee/">
-                <i class="devicon-linkedin-plain colored" style="font-size:35px"></i>
-            </a>
-            <i class="fa fa-envelope" style="font-size:36px;color:blue"></i>
-            <i class="fa fa-github" style="font-size:36px"></i>
+    <img id="noisebg" src="./noisy-background.jpg">
+    <!-- <nav class="tinyNav">
 
-        </div>
         <div>
             <a href="#a">ABOUT</a>
             <a href="#b">SKILLS</a>
             <a href="#c">PROJECTS</a>
         </div>
-    </nav>
+    </nav> -->
 
     <div class="introDiv" id="a">
-        <div class="introSquare">
-            <h1 id="helloText">Hi, I'm Dahee!</h1>
-            <h4>I'm a full stack software engineer</h4>
-            <h4>customer service expert</h4>
-            <h4>coffee addict</h4>
-
+        <div class="helloDiv">
+            <h1 id="helloName">Dahee Lee</h1>
+            <h3>Full-Stack Engineer</h3>
+            <hr id="introBreak">
+            </hr>
+            <h4>
+                Building digital experiences that places users first is my passion.
+            </h4>
+            <h4>
+                With over 7 years of customer service and sales experience, I understand how important it is to develop
+                solutions for users. Accessible design and user experience are some of my core values as a programmer.
+            </h4>
+            <h4>
+                When not programming, I'm researching the next, best travel destination! 
+            </h4>
+            <h4>
+                Feel free to connect with me
+                anytime.
+            </h4>
+            <div>
+                <a href="https://www.linkedin.com/in/daheelee/" class="fa fa-linkedin-square"
+                    style="font-size:25px"></a>
+                <a href="https://github.com/dhl92000" class="fa fa-github" style="font-size:25px"></a>
+                <i class="fa fa-envelope" style="font-size:25px"></i> <i>dahlee97@gmail.com</i>
+            </div>
         </div>
+        <img id="headshot" src="./AM-BrandingSession-Dahee&Julie-0016.png" alt="Portfolio headshot" />
+
     </div>
 
     <section class="skills" id="b">
-        <h1 class="slidingBanner">TECHNOLOGIES</h1>
+        <!-- <h1 class="slidingBanner">SKILLS</h1> -->
+        <div class="skillsDescription">
+            <h1>SKILLS</h1>
+            <h4>Here are some technologies I know. I'm committed to always learning - I'm open to embracing new skills
+                in addition to improving my current proficiencies.</h4>
+        </div>
+
         <div class="skillsIcons">
             <div>
                 <img class="icon"
@@ -115,51 +136,62 @@
     </section>
 
     <main class="projects" id="c">
-        <h1 class="slidingBanner">PROJECTS</h1>
+        <!-- <h1 class="slidingBanner">PROJECTS</h1> -->
         <div class="project">
+            <h1 class="projectsHeader">PROJECTS</h1>
+        </div>
+        <div class="project">
+            <div class="projectImgDiv">
+                <img class="projectImg" src="../dhl92000.github.io/2.png" alt="Places App Image">
+            </div>
             <div class="projDescription">
                 <h1>PLACES</h1>
-                <h3>PostgreSQL • Sequelize • Express.js • React • Node.js • Tailwind </h3>
                 <h3>
                     A toolkit website for builders to efficiently manage their pre-construction inventory and connect
                     with
                     buyers.
                 </h3>
-            </div>
-            <div>
-                <img class="projectImg" src="https://i.imgur.com/5jboIqM.png" alt="Places App Image">
+                <i class="projSkill">PostgreSQL</i>
+                <i class="projSkill">Sequelize</i>
+                <i class="projSkill">Express.js</i>
+                <i class="projSkill">React</i>
+                <i class="projSkill">Tailwind</i>    
             </div>
         </div>
 
         <div class="project">
+            <div class="projectImgDiv">
+                <img class="projectImg" src="../dhl92000.github.io/1.png" alt="Pens App Image">
+            </div>
             <div class="projDescription">
                 <h1>PENS</h1>
-                <h3>MongoDB • Express.js • EJS • Node.js</h3>
                 <h3>
                     Pens is a journalling app for users to unleash their creativity and share quotes and thoughts in a
                     captivating way.
                 </h3>
-            </div>
-            <div>
-                <img class="projectImg" src="https://i.imgur.com/oxoLeqa.png" alt="Pens App Image">
+                <i class="projSkill">MongoDB</i>
+                <i class="projSkill">Express.js</i>
+                <i class="projSkill">EJS</i>
+                <i class="projSkill">JavaScript</i>
             </div>
         </div>
 
         <div class="project">
+            <div class="projectImgDiv">
+                <img class="projectImg" src="../dhl92000.github.io/3.png" alt="Pens App Image">
+            </div>
             <div class="projDescription">
                 <h1>GOOD START</h1>
-                <h3>Node.js • HTML • CSS • JavaScript</h3>
                 <h3>
                     For users uncovering daily inspiration, where a click of the mouse unveils an inspirational quote
                     and an immersive colour experience.
                 </h3>
-            </div>
-            <div>
-                <img class="projectImg" src="https://i.imgur.com/OWPp9Ei.png" alt="Pens App Image">
+                <i class="projSkill">HTML</i>
+                <i class="projSkill">CSS</i>
+                <i class="projSkill">JavaScript</i>
             </div>
         </div>
     </main>
-
 
 
 </body>
