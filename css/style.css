@@ -77,13 +77,22 @@ hr {
 
 .helloDiv i {
     font-style: normal;
-    margin: 5px 5px;
+    margin-right: 5px;
 }
 
 .helloDiv a{
-    margin: 5px 5px;
+    margin-right: 5px;
     text-decoration: none;
     color: inherit;
+}
+
+.resumeButton{
+    background-color: #312c20;
+    color: #e9e7df;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    margin: 15px 0;
 }
 #headshot{
     width: 50vw;
@@ -97,7 +106,6 @@ hr {
     display: flex;
     align-content: center;
     justify-content: center;
-    
 }
 
 .skillsIcons{
