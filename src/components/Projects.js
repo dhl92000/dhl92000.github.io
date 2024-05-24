@@ -10,7 +10,7 @@ const Projects = ({ allProjects }) => {
     return (
         <div class="projects">
             <div class="projectsHeader">
-                <h1>Work<span style={{ color: "#0E8D44", fontSize: "1.5em" }}>.</span></h1>
+                <h1>Work</h1>
             </div>
             <div class="projectsDiv">
             {

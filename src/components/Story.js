@@ -4,7 +4,7 @@ import '../pages/AboutPage'
 const Story = () => {
     return (
         <div class="storyDiv">
-            <h1>My Story<span style={{ color: "#0E8D44", fontSize: "1.5em" }}>.</span></h1>
+            <h1>My Story</h1>
             <div class="story">
                 <div class="storyText">
                     <p>

@@ -3,7 +3,7 @@ import './ContactPage.css'
 const ContactPage = () => {
     return (
         <div class="contactCard">
-            <h1>Contact<span style={{ color: "#0E8D44", fontSize: "1.5em" }}>.</span></h1>
+            <h1>Contact</h1>
 
             <div class="contactCardLayout">
 

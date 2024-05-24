@@ -33,7 +33,7 @@ const Homepage = () => {
             {/* skills */}
             <div class="skillsSection">
                 <div>
-                    <h1>Skills<span style={{ color: "#0E8D44", fontSize: "1.5em" }}>.</span> </h1>
+                    <h1>Skills</h1>
                 </div>
 
                 <div class="skills">

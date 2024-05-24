@@ -1,12 +1,19 @@
+// SHOW page for single project with details
+
+import first from '../projectData/first.png'
+
 const ProjectPage = () => {
     return (
         <div class="projectDiv">
-            <h1>Retrosquares<span style={{ color: "#0E8D44", fontSize: "1.5em" }}>.</span></h1>
+            <h1>Retrosquares</h1>
             <p class="projectBlurb">
                 An app for users to share and manage their images as Polaroid-esque posts, and filter views by hashtags.
             </p>
+
+
+
             <div id="projectImage">
-                <img src="../assets/1.png"/>
+                <img src={first} alt="screenshot of retrosquares app homepage"/>
             </div>
 
             <div class="projectText">
