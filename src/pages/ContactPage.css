@@ -23,11 +23,21 @@
     gap: 20px;
 }
 .contactItems i {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #0E8D44;
+}
+.contactItems span{
+    font-size: 2rem;
+    color: #0E8D44;
+    margin-top: 10px;
 }
 .contactItems a{
     text-decoration: none;
-    color: black;
+    color: #0E8D44;
+}
+
+.contactItems p {
+    color: #0E8D44;
 }
 
 /* ------- TABLETS --------- */

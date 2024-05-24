@@ -33,11 +33,11 @@ const ContactPage = () => {
 
                         <p><a href="https://github.com/dhl92000">Github</a></p>
                     </div>
-                    <div class="contactItems">
-                        <p>
-                            <i class="fa-regular fa-envelope"></i>
-                        </p>
 
+                    <div class="contactItems">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
                         <p>dahlee97@gmail.com</p>
                     </div>
                 </div>
