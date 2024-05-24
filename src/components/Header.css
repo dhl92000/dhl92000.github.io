@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#headerName a {
+    text-decoration: none;
+    color: #0E8D44;
+}
+
+.keyboardButton {
+    border: none;
+    background-color: transparent;
+    color: #0E8D44;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* ------- DESKTOP --------- */
+@media(min-width:912px) {
+    header {
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #0E8D44;
+        text-decoration: none;
+        margin: 30px;
+    }
+
+    #headerName {
+        width: 80vw;
+    }
+
+    #headerName a {
+        text-decoration: none;
+        color: #0E8D44;
+    }
+
+    .headerNav a {
+        text-decoration: none;
+        color: #0E8D44;
+        padding: 0 10px;
+
+    }
+
+    .keyboardButton {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        background-color: #f2f1f1;
+        color: #0E8D44;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 3px;
+        padding: 0.25em 0.75em;
+        box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+        position: relative;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    /* .keyboardButton a {
+        color: #aaa9a9;
+        text-decoration: none;
+    } */
+
+    .keyboardButton:active {
+        box-shadow: 0px 0px 0px 0px;
+        top: 5px;
+        left: 5px;
+    }
+
+
+}

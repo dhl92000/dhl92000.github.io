@@ -1,0 +1,185 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fcfcfc;
+}
+
+/* -------Intro-------- */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.intro {
+    height: 100vh;
+    margin: 10px;
+}
+
+.introName {
+    color: #0E8D44;
+}
+
+.introName {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#nameDef {
+    margin: 0;
+    color: #0E8D44;
+}
+
+.introBlurb{
+    text-align: justify;
+}
+.introImageDiv {
+    text-align: center;
+}
+
+.skillsDiv p {
+    font-weight: bold;
+}
+
+.skillsDiv ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* ------Skills----- */
+.skillsSection{
+    width: 90vw;
+}
+
+
+
+
+/* ------- TABLETS --------- */
+@media (min-width:800px) {
+
+    .intro {
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .introName {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .introImage {
+        margin-top: 6rem;
+    }
+
+    .skillsSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70vw;
+        height: 100vh;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70vw;
+    }
+
+    .skillsDiv {
+        width: 25vw;
+    }
+}
+
+/* ------- DESKTOP --------- */
+@media(min-width:912px) {
+    .intro {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        /* width: 70vw; */
+        /* height: 100vh; */
+    }
+
+    .introTextDiv {
+        width: 40vw;
+    }
+
+    .introName {
+        font-size: 100px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .introBlurb {
+        text-align: justify;
+    }
+
+    .introImage {
+        width: 200px;
+        padding: 15px;
+        display: block;
+        margin: auto;
+    }
+
+    /* -------Skills-------- */
+    .skillsSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70vw;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .skillsSection h1 {
+        font-size: 50px;
+        letter-spacing: 0.25rem;
+    }
+
+    /* .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.5em;
+    } */
+    .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.5em;
+    }
+
+    .skillsDiv {
+        width: 20%;
+    }
+
+    /* .skillsDiv ul {
+        list-style-type: none;
+        padding: 0;
+        line-height: 1.8;
+    } */
+
+    .skillsDiv li {
+        padding: 0;
+    }
+
+    /* @keyframes greentext {
+        100% {
+            color: #0E8D44;
+        }
+
+    } */
+
+}
