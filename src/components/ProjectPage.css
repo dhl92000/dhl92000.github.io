@@ -1,0 +1,106 @@
+.projects{
+    width: 90vw;
+}
+
+.projectsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.project p {
+    margin: 0;
+}
+.projectTitle {
+    font-size: x-large;
+}
+
+.projectImg img{
+    width: 90vw;
+}
+.projectTitle{
+    font-size: x-large;
+    font-weight: 500;
+}
+.project a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ------- TABLETS --------- */
+@media (min-width:800px) {
+    .projects{
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .projectsDiv {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3em;
+        column-gap: 3em;
+        cursor: pointer;
+    }
+
+    .project {
+        width: 70vw;
+    }
+
+    .projectImg img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        border-radius: 20px;
+        height: 40vh;
+    }
+
+}
+
+/* ------- DESKTOP --------- */
+/* @media(min-width:801px) { */
+@media(min-width:912px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70vw;
+        margin: auto;
+    }
+
+    .projectsHeader h1 {
+        font-size: 50px;
+        letter-spacing: 0.25rem;
+    }
+
+    .projectsDiv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 3em;
+        column-gap: 3em;
+    }
+
+    #retrosquares:hover {
+        transform: translate(-2px, -2px);
+        filter: drop-shadow(2px 5px 4px #d8d8dd);
+    }
+
+    .project {
+        cursor: pointer;
+        height: 60vh;
+        width: 30vw;
+    }
+
+    .projectImg{
+        height: 40vh;
+    }
+
+    .projectImg img {
+        object-fit: contain;
+        max-height: 100%;
+        display: block;
+        border-radius: 20px;
+  
+    }
+}

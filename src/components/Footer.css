@@ -1,0 +1,45 @@
+.footer{
+    height: 20vh;
+}
+
+.footerLeft p{
+    text-align: center;
+}
+
+.footerRight{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerRight a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ------- DESKTOP --------- */
+@media(min-width:801px) {
+
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px;
+        /* height: 10vh; */
+    }
+
+    .footerLeft h1 {
+        letter-spacing: 0.5rem;
+        color: #0E8D44;
+    }
+
+    .footerLeft p {
+        margin: 0;
+    }
+
+    .footerRight p {
+        display: inline;
+        padding: 10px;
+    }
+
+}

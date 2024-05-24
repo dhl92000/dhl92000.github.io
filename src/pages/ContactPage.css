@@ -1,0 +1,58 @@
+.contactCard {
+    width: 70vw;
+    margin: auto;
+    padding: 3em;
+}
+
+.contactText{
+    border-left: #0E8D44 2px dotted;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    padding: 30px;
+    margin-bottom: 1em;
+}
+.contactItemsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactItems{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.contactItems i {
+    font-size: 1.5rem;
+}
+.contactItems a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ------- TABLETS --------- */
+@media (min-width:800px) {
+    .contactCard{
+        height: 70vh;
+    }
+
+    .contactCardLayout{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* ------- DESKTOP --------- */
+@media(min-width:912px) {
+    .contactCard {
+        width: 40vw;
+        margin: auto;
+        padding: 10px;
+    }
+    .contactCardLayout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

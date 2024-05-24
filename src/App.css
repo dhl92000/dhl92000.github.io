@@ -1,0 +1,11 @@
+.App {
+  background-color: #fcfcfc;
+  font-family: "Poppins", sans-serif;
+  color: rgb(83, 83, 83);
+}
+
+/* ------- TABLETS --------- */
+@media (min-width:800px) {}
+
+/* ------- DESKTOP --------- */
+@media(min-width:912px) {}
