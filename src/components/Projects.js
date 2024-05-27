@@ -16,7 +16,7 @@ const Projects = ({ allProjects }) => {
             {
                 projects.map((project) => {
                     return (
-                        <Project project={project} />
+                        <Project project={project} key={project}/>
                     )
                 })
             }
