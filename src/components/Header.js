@@ -12,9 +12,9 @@ const Header = () => {
                     <button class="keyboardButton">
                         About
                     </button>
-                    </Link>
+                </Link>
                 <Link to="/contact">
-                <button class="keyboardButton">
+                    <button class="keyboardButton">
                         Contact
                     </button>
                 </Link>

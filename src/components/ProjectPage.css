@@ -89,7 +89,7 @@
         flex-direction: column;
         row-gap: 3em;
         column-gap: 3em;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
 
     .project {
@@ -107,7 +107,6 @@
 }
 
 /* ------- DESKTOP --------- */
-/* @media(min-width:801px) { */
 
 /* -----PROJECTS component----- */
 @media(min-width:912px) {
@@ -132,13 +131,13 @@
         column-gap: 3em;
     }
 
-    #retrosquares:hover {
+    /* #retrosquares:hover {
         transform: translate(-2px, -2px);
         filter: drop-shadow(2px 5px 4px #d8d8dd);
-    }
+    } */
 
     .project {
-        cursor: pointer;
+        /* cursor: pointer; */
         height: 60vh;
         width: 30vw;
     }
