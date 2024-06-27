@@ -17,7 +17,7 @@ const Homepage = () => {
 
                     <div class="introBlurb">
                         <p>
-                            Creative fullstack software engineer obsessed with clean designs and clean code.
+                            Creative full stack software engineer obsessed with clean designs and clean code.
                         </p>
 
                         <p>
