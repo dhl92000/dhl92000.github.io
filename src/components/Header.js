@@ -8,6 +8,12 @@ const Header = () => {
                 <Link to="/">( DAHEE LEE )</Link>
             </div>
             <div class="headerNav">
+            <Link to="/">
+                    <button class="keyboardButton">
+                        Home
+                    </button>
+                </Link>
+
                 <Link to="/about">
                     <button class="keyboardButton">
                         About

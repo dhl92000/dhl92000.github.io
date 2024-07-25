@@ -27,7 +27,7 @@ const Homepage = () => {
                 </div>
 
                 <div class="introImageDiv">
-                    <img class="introImage" src={IMG_1290} alt="Profile picture of Dahee" />
+                    <img class="introImage" src={IMG_1290} alt="black and white headshot of Dahee against a wall with abstract art" />
                 </div>
             </div>
             {/* skills */}
