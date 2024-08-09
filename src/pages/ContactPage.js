@@ -20,7 +20,7 @@ const ContactPage = () => {
                         </p>
 
                         <p>
-                            <a href="linkedin.com/in/daheelee/">
+                            <a href="https://www.linkedin.com/in/daheelee/">
                                 LinkedIn
                             </a>
                         </p>

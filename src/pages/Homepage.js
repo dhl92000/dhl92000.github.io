@@ -57,6 +57,7 @@ const Homepage = () => {
                             <li>ExpressJS</li>
                             <li>Django</li>
                             <li>React</li>
+                            <li>React Native</li>
                             <li>Tailwind CSS</li>
                         </ul>
                     </div>
