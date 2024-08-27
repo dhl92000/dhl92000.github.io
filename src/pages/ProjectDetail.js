@@ -22,7 +22,7 @@ const ProjectPage = ({ allProjects }) => {
 
 
                 <div id="projectImage">
-                    <img src={first} alt="screenshot of retrosquares app homepage" />
+                    <img src={project[0].image} alt="screenshot of retrosquares app homepage" />
                 </div>
 
                 <div class="projectText">
