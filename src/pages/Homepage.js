@@ -59,6 +59,7 @@ const Homepage = () => {
                             <li>React</li>
                             <li>React Native</li>
                             <li>Tailwind CSS</li>
+                            <li>Jest</li>
                         </ul>
                     </div>
 
@@ -85,7 +86,7 @@ const Homepage = () => {
                         <ul>
                             <li>Collaboration</li>
                             <li>Conflict-resolution</li>
-                            <li>Effective Communication</li>
+                            <li>Adaptability</li>
                         </ul>
                     </div>
 
