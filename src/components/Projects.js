@@ -3,6 +3,7 @@ import "./ProjectPage.css";
 // Project component
 import Project from "./Project";
 import { Link } from "react-router-dom";
+import fitracker from '../UI/financetrackerCard.png'
 import retrosqImg from "../projectData/first.png";
 import pickleballImg from "../projectData/pickleball.png";
 const Projects = ({ allProjects }) => {
@@ -17,7 +18,7 @@ const Projects = ({ allProjects }) => {
         <div class="project">
           <Link to={"/financetracker"}>
             <div class="projectImg">
-              <img src={retrosqImg} alt='finance tracker application homepage'/>
+              <img src={fitracker} alt='finance tracker application homepage'/>
             </div>
             <p class="projectTitle">
               <h2>Finance Tracker</h2>
