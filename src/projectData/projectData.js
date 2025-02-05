@@ -70,27 +70,27 @@ const allProjects = [
             You can view a local version of the application <a href="https://retrosquares.netlify.app/">here.</a>
         </p>`
     },
-    {
-        name: "Good Start",
-        description: "For users to get inspired daily with an immersive colour experience.",
-        tech: ["HTML", "CSS", "JavaScript"],
-        image: goodstart,
-        projectpage: false
-    },
-    {
-        name: "Places",
-        description: "A toolkit website for builders to efficiently manage their pre-construction inventory and connect with buyers.",
-        tech: ["PostgreSQL", "Sequelize", "Express.js", "React", "Tailwind"],
-        image: second,
-        projectpage: false
-    },
-    {
-        name: "Pens",
-        description: "Pens is a journalling app for users to unleash their creativity and share quotes and thoughts in a captivating way.",
-        tech: ["MongoDB", "Express.js", "JavaScript"],
-        image: third,
-        projectpage: false
-    }
+    // {
+    //     name: "Good Start",
+    //     description: "For users to get inspired daily with an immersive colour experience.",
+    //     tech: ["HTML", "CSS", "JavaScript"],
+    //     image: goodstart,
+    //     projectpage: false
+    // },
+    // {
+    //     name: "Places",
+    //     description: "A toolkit website for builders to efficiently manage their pre-construction inventory and connect with buyers.",
+    //     tech: ["PostgreSQL", "Sequelize", "Express.js", "React", "Tailwind"],
+    //     image: second,
+    //     projectpage: false
+    // },
+    // {
+    //     name: "Pens",
+    //     description: "Pens is a journalling app for users to unleash their creativity and share quotes and thoughts in a captivating way.",
+    //     tech: ["MongoDB", "Express.js", "JavaScript"],
+    //     image: third,
+    //     projectpage: false
+    // }
 
 ]
 

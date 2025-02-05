@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+
     background-color: #fcfcfc;
 }
 
@@ -58,9 +58,10 @@ body {
 
 
 /* ------- TABLETS --------- */
-@media (min-width:800px) {
+@media (min-width:600px) {
 
     .intro {
+        height: 80vh;
         width: 75vw;
         display: flex;
         justify-content: center;
@@ -69,14 +70,11 @@ body {
     }
     
     .introName {
-
         font-weight: bold;
         margin: 0;
     }
 
-    .introImage {
-        margin-top: 6rem;
-    }
+
 
     .skillsSection {
         display: flex;
@@ -111,6 +109,10 @@ body {
         
     }
 
+    .introImage {
+        margin-top: 6rem;
+    }
+    
     .introTextDiv {
         width: 40vw;
     }

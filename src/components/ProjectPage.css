@@ -1,4 +1,3 @@
-/* -----PROJECTS component----- */
 .projects {
     width: 90vw;
 }
@@ -9,7 +8,6 @@
     gap: 2em;
 }
 
-/* single project component */
 .project p {
     margin: 0;
 }
@@ -33,9 +31,6 @@
     color: black;
 }
 
-/* --------------------- */
-
-/* SHOW page for single project */
 .projectDiv {
     margin: auto;
     width: 90vw;
@@ -76,8 +71,8 @@
     text-align: justify;
 }
 
-/* ------- TABLETS --------- */
-@media (min-width:800px) {
+
+@media (min-width:600px) {
     .projects {
         width: 70vw;
         display: flex;
@@ -89,7 +84,6 @@
         flex-direction: column;
         row-gap: 3em;
         column-gap: 3em;
-        /* cursor: pointer; */
     }
 
     .project {
@@ -106,9 +100,7 @@
 
 }
 
-/* ------- DESKTOP --------- */
 
-/* -----PROJECTS component----- */
 @media(min-width:912px) {
     .projects {
         display: flex;
@@ -131,13 +123,7 @@
         column-gap: 3em;
     }
 
-    /* #retrosquares:hover {
-        transform: translate(-2px, -2px);
-        filter: drop-shadow(2px 5px 4px #d8d8dd);
-    } */
-
     .project {
-        /* cursor: pointer; */
         height: 60vh;
         width: 30vw;
     }
@@ -154,7 +140,6 @@
 
     }
 
-    /* single project component */
     .projectDiv {
         width: 70vw;
         margin-top: 5rem;

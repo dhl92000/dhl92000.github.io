@@ -8,6 +8,7 @@ const Header = () => {
 
   // # of pixels user is scrolled down on page
   const { scrollY } = useScroll();
+  
   const lastYRef = useRef(0);
   //react to something that changes in scrollY
   useMotionValueEvent(scrollY, "change", (y) => {
@@ -20,13 +21,13 @@ const Header = () => {
 
   return (
     <motion.header
-      class="header"
+      className="header"
       animate={isHidden ? "hidden" : "visible"}
       whileHover={"visible"}
       onFocusCapture={() => setIsHidden(false)}
       variants={{
         hidden: {
-          y: "-75%",
+          y: "-80%",
         },
         visible: {
           y: "0%",

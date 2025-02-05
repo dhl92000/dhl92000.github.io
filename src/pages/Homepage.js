@@ -2,6 +2,7 @@ import './Homepage.css'
 import Projects from '../components/Projects';
 import IMG_1290 from '../projectData/IMG_1290.jpg'
 import allProjects from '../projectData/projectData'
+import ProjectCardTest from '../components/ProjectCardTest';
 
 const Homepage = () => {
 
@@ -97,7 +98,6 @@ const Homepage = () => {
 
             {/* projects */}
             <Projects allProjects={allProjects} />
-
         </div>
 
     )
