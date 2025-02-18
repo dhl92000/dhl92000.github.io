@@ -1,8 +1,7 @@
 import './Homepage.css'
-import Projects from '../components/Projects';
+import ProjectTile from '../components/ProjectTile';
 import IMG_1290 from '../projectData/IMG_1290.jpg'
-import allProjects from '../projectData/projectData'
-import ProjectCardTest from '../components/ProjectCardTest';
+import { useScroll, motion, useMotionValueEvent } from "motion/react";
 
 const Homepage = () => {
 
@@ -31,6 +30,7 @@ const Homepage = () => {
                     <img class="introImage" src={IMG_1290} alt="black and white headshot of Dahee against a wall with abstract art" />
                 </div>
             </div>
+
             {/* skills */}
             <div class="skillsSection">
                 <div>
@@ -97,7 +97,7 @@ const Homepage = () => {
             </div>
 
             {/* projects */}
-            <Projects allProjects={allProjects} />
+            <ProjectTile/>
         </div>
 
     )
