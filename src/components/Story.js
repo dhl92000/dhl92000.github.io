@@ -1,4 +1,4 @@
-import lisbon from '../projectData/lisbon.png'
+import lisbon from '../UI/lisbon.png'
 import '../pages/AboutPage'
 
 const Story = () => {

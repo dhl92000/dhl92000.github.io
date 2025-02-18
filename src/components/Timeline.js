@@ -7,36 +7,34 @@ const Timeline = () => {
 
             <div class="timelineItem" id="currentItem">
                 <p>
-                    2023
-                </p>
-
-
-                <p>
                     Software Engineering Immersive graduate, <em>General Assembly</em>
+                </p>
+                <p>
+                    2023
                 </p>
             </div>
             <div class="timelineItem">
-                <p>
-                    2020
-                </p>
                 <p>
                     Realtor, <em>Home Standards Brickstone Realty</em>
                 </p>
+                <p>
+                    2020
+                </p>
             </div>
             <div class="timelineItem">
-                <p>
-                    2018
-                </p>
                 <p>
                     Airports Customer Experience Specialist, <em>Air Canada</em>
                 </p>
+                <p>
+                    2018-2024
+                </p>
             </div>
             <div class="timelineItem">
                 <p>
-                    2016
+                    Reservations/Ticketing Representative, <em>Air Canada</em>
                 </p>
                 <p>
-                    Reservations/Ticketing Representative, <em>Air Canada</em>
+                    2016-2018
                 </p>
             </div>
         </div>

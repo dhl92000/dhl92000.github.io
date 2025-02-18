@@ -8,7 +8,6 @@ const AboutPage = () => {
         <div class="aboutPage">
             <Timeline />
             <Story />
-
         </div>
     )
 }

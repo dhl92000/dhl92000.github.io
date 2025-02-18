@@ -1,13 +1,12 @@
 .aboutPage {
-    width: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 10px; */
 }
 
 .timeline {
+    width: 90vw;
     margin-top: 4em;
     height: 100vh;
 }
@@ -28,6 +27,9 @@
     align-items: center;
 }
 
+.storyDiv {
+    width: 90vw;
+}
 .storyText {
     text-align: justify;
 }
@@ -42,11 +44,14 @@
 }
 
 /* ------- TABLETS --------- */
-@media (min-width:800px) {
+@media (min-width:600px) {
     .timeline {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 40vh;
+        margin-top: 0;
+        width: 80vw;
     }
 
     .storyDiv {
@@ -64,11 +69,12 @@
     .aboutPage {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
     .timeline {
-        width: 70vw;
+        width: 60vw;
         height: 80vh;
         align-content: center;
     }
@@ -80,8 +86,8 @@
     }
 
     .storyDiv {
-        width: 70vw;
-        height: 100vh;
+        width: 60vw;
+        height: 80vh;
     }
 
     .story {
@@ -97,7 +103,6 @@
 
     #storyImageDiv img {
         width: 30vw;
-
     }
 
 }
