@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const ProjectTile = () => {
   return (
     <div className="project-tile">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div className="project-tile-container">
         <Link to="/financetracker" className="project-tile1">
           <h2>Finance Tracker</h2>

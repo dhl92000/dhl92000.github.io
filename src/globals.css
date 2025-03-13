@@ -1,0 +1,146 @@
+.intro-gradient {
+    display: none;
+}
+
+html, body {
+  width: 100%;
+}
+
+.shape1 {
+  opacity: 0.8;
+  left: 2%;
+  top: 15%;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 15rem;
+  background: linear-gradient(75deg, #3398b1,#008a42);
+  animation: shape1 15s infinite cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  filter: blur(60px);
+}
+
+.shape2 {
+  opacity: 0.8;
+  left: 45%;
+  top: 55%;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 15rem; 
+  background: radial-gradient(ellipse at top, #00a9b3, transparent),
+  radial-gradient(ellipse at bottom, #78b6ea, transparent);
+  filter: blur(30px);
+  animation: shape2 15s ease-in-out infinite ;
+
+}
+
+.shape3 {
+  opacity: 1;
+  left: 50%;
+  top: 8%;
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  border-radius: 15rem;
+  background: radial-gradient(ellipse at top, #78b6ea, transparent),
+  radial-gradient(ellipse at bottom, #8bc196, transparent);
+  filter: blur(30px);
+  animation: shape3 15s ease-in-out infinite ;
+}
+
+
+@keyframes shape1 {
+    0% {
+      translate: 0 0;
+      rotate: 0deg;
+    }
+    30% {
+      rotate: 40deg;
+    }
+    50% {
+      transform: translate(100px, 80px) scale(1);
+    }
+    80% {
+      rotate: 90%;
+    }
+  }
+
+  @keyframes shape2 {
+    0% {
+      translate: 0 0;
+      rotate: 0deg;
+    }
+    50% {
+        transform: translate(-200px, 0px) ;
+    }
+    100%{
+      translate: 0 0;
+      rotate: 90%;
+    }
+
+  }
+
+  @keyframes shape3 {
+    0% {
+      translate: 0 0;
+      rotate: 0deg;
+    }
+    30% {
+        transform: translate(50px, 40px) ;
+    }
+    70% {
+        transform: translate(-10px, -10px) ;
+        rotate: 90%;
+    }
+    80% {
+        rotate: 90%;
+    }
+  }
+  
+@media screen and (min-width: 600px) {
+    .intro-gradient {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 900px) {
+.shape1 {
+  left: 8%;
+  width: 400px;
+  height: 400px;
+}
+
+.shape2 {
+  left: 50%;
+  top: 70%;
+}
+
+.shape3 {
+  width: 480px;
+  height: 480px;
+}
+
+@keyframes shape3 {
+  0% {
+    translate: 0 0;
+    rotate: 0deg;
+  }
+  30% {
+      transform: translate(80px, 40px) ;
+  }
+  70% {
+      transform: translate(-10px, -10px) ;
+      rotate: 90%;
+  }
+  80% {
+      rotate: 90%;
+  }
+}
+
+
+}
+
+
+
+
+  

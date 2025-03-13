@@ -1,3 +1,9 @@
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .project-tile-container {
     display: flex;
     flex-wrap: wrap;
@@ -7,16 +13,10 @@
     letter-spacing: 0.1rem;
 }
 
-/* .project-tile h1 {
-    font-size: 1.5rem;
-    font-weight: 200;
+.project-tile h2 {
+    font-size: 40px;
     letter-spacing: 0.25rem;
-    font-family: "Figtree", sans-serif;
-} */
-
-.project-tile h1 {
-    font-size: 50px;
-    letter-spacing: 0.25rem;
+    font-family: "Montserrat", serif;
 }
 
 .project-tile-container h2 {
@@ -31,12 +31,22 @@
     font-size: 0.8rem;
 }
 
-.project-tile1 {
-    flex: 1;    
-    background-color: #FAF3E6; 
-    color: rgb(99, 99, 99);
+.project-tile1, .project-tile2, .project-tile3 {
+    color: antiquewhite;
     padding: 10px;
     text-decoration: none;
+}
+
+.project-tile1 {
+    background-color: #006e96;
+}
+
+.project-tile2 {
+    background-color: #006797;
+}
+
+.project-tile3 {
+    background-color:#008469;
 }
 
 .project-tile1:hover {
@@ -45,15 +55,6 @@
     background-position: left;
     background-size: cover;
     color: transparent;
-
-}
-
-.project-tile2 {
-    flex: 1;
-    background-color: #1A8444;
-    padding: 10px;
-    text-decoration: none;
-    color: antiquewhite;
 }
 
 .project-tile2:hover {
@@ -64,14 +65,6 @@
     color: transparent;
 }
 
-.project-tile3 {
-    flex: 1;
-    background-color: #0E8D44;
-    padding: 10px;
-    text-decoration: none;
-    color: antiquewhite;
-}
-
 .project-tile3:hover {
     background-image: url('../projectData/pickleball.png');
     background-repeat: no-repeat;
@@ -80,7 +73,6 @@
     color: transparent;
 }
 
-
 @media (min-width:600px) {
 
 }
@@ -88,12 +80,22 @@
 @media (min-width:912px) {
     
     .project-tile {
-        height: 70vh;
+        margin-bottom: 4rem;
     }
 
     .project-tile-container {
         flex-direction: row;
-        width: 70vw;
-        height: 40vh;
+        width: 45vw;
+        
+    }
+    .project-tile1 {
+        flex: 1;
+        height: 340px;
+    }
+    .project-tile2 {
+        flex: 1;
+    }
+    .project-tile3 {
+        height: 300px;
     }
 }

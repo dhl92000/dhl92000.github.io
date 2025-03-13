@@ -1,7 +1,13 @@
 import './Homepage.css'
 import ProjectTile from '../components/ProjectTile';
 import IMG_1290 from '../projectData/IMG_1290.jpg'
-import { useScroll, motion, useMotionValueEvent } from "motion/react";
+
+
+
+// Old page
+
+
+
 
 const Homepage = () => {
 

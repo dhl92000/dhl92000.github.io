@@ -1,49 +1,5 @@
-body {
-    background-color: #fcfcfc;
-}
+/* Old page*/
 
-/* -------TEST HOME -------- */
-.home {
-    display: flex;
-    flex-direction: column;
-    /* font-family: "Poppins", sans-serif; */
-    width: 70vw;
-    
-}
-.nameTitle {
-    color: #0E8D44;
-    font-size: 3.75rem;
-}
-.headshotContainer {
-    /* width: 7rem; */
-    border-width: 1px;
-    border-radius: 9999px;
-    overflow: hidden;
-    width: 7rem;
-    height: 7rem;
-    position: relative;
-}
-.headshot {
-    width: 100%;
-    
-    /* border-radius: 180px;
-    aspect-ratio: 1 / 1; */
-}
-
-/* -------TEST HOME -------- */
-
-
-
-
-
-
-
-
-
-
-
-
-/* -------Intro-------- */
 .homepage {
     display: flex;
     flex-direction: column;
@@ -52,10 +8,10 @@ body {
     gap: 20px;
 }
 
-.intro {
+/* .intro {
     height: 100vh;
     margin: 10px;
-}
+} */
 
 .introName {
     color: #0E8D44;
@@ -90,7 +46,6 @@ body {
     line-height: 1.8;
 }
 
-/* ------Skills----- */
 .skillsSection{
     width: 90vw;
 }
@@ -101,14 +56,14 @@ body {
 /* ------- TABLETS --------- */
 @media (min-width:600px) {
 
-    .intro {
+    /* .intro {
         height: 80vh;
         width: 75vw;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1rem;
-    }
+    } */
     
     .introName {
         font-weight: bold;
@@ -140,7 +95,7 @@ body {
 
 /* ------- DESKTOP --------- */
 @media(min-width:912px) {
-    .intro {
+    /* .intro {
         height: 100vh;
         display: flex;
         flex-direction: row;
@@ -148,7 +103,7 @@ body {
         justify-content: center;
         gap: 40px;
         
-    }
+    } */
 
     .introImage {
         margin-top: 6rem;

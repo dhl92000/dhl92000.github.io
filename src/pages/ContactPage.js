@@ -35,7 +35,7 @@ const ContactPage = () => {
                     </div>
 
                     <div class="contactItems">
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined" >
                             mail
                         </span>
                         <p>dahlee97@gmail.com</p>

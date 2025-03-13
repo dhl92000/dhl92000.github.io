@@ -3,7 +3,7 @@ import '../pages/AboutPage'
 const Timeline = () => {
     return (
         <div class="timeline">
-            <h1>About Me</h1>
+            <h1>My Timeline</h1>
 
             <div class="timelineItem" id="currentItem">
                 <p>
