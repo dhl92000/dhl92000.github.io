@@ -97,5 +97,6 @@
     }
     .project-tile3 {
         height: 300px;
+        flex-grow: 1;
     }
 }
